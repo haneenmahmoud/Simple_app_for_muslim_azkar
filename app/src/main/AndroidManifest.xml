@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.azkar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/background"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".azkar_elsaba7"
+            android:label="أذكار الصباح"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".azkar_elmsaa"
+            android:label="أذكار المساء"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".azkar_elnom"
+            android:label="أذكار النوم"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".azkar_elsalah"
+            android:label="أذكار ما بعد الصلاة"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".azkar_elsfr"
+            android:label="دعاء السفر"
+            android:parentActivityName=".MainActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@color/backgroundColor"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/elsba7"
+        style="@style/buttonStyle"
+        android:layout_marginTop="10dp"
+        android:onClick="azkarElsabah"
+        android:text="أذكار الصباح" />
+
+    <Button
+        android:id="@+id/elmsaa"
+        style="@style/buttonStyle"
+        android:onClick="azkarElmsaa"
+        android:text="أذكار المساء" />
+
+    <Button
+        android:id="@+id/elnom"
+        style="@style/buttonStyle"
+        android:onClick="azkarelnom"
+        android:text="أذكار النوم" />
+
+    <Button
+        android:id="@+id/elslah"
+        style="@style/buttonStyle"
+        android:onClick="doaa"
+        android:text="دعاء السفر" />
+
+    <Button
+        style="@style/buttonStyle"
+        android:onClick="azkar_elsalh"
+        android:text="أذكار ما بعد الصلاة " />
+    </LinearLayout>
+
+</RelativeLayout>
